@@ -7591,10 +7591,10 @@ var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _argume
     });
 };
 
-const apiKey = "MISSING_ENV_VAR".GIPHY_API_KEY || '';
+const apiKey = "EVRi3cEa7iWNoxRVcFUuH15ihy48vF4t" || 0;
 const gf = new dist.GiphyFetch(apiKey);
 const DEFAULT_FETCH_COUNT = 16;
-const TRENDING_GIF_API = `https://api.giphy.com/v1/gifs/trending?api_key=${"MISSING_ENV_VAR".GIPHY_API_KEY}&limit=${DEFAULT_FETCH_COUNT}&rating=g`;
+const TRENDING_GIF_API = `https://api.giphy.com/v1/gifs/trending?api_key=${"EVRi3cEa7iWNoxRVcFUuH15ihy48vF4t"}&limit=${DEFAULT_FETCH_COUNT}&rating=g`;
 function convertResponseToModel(gifList) {
     return gifList.map((gif) => {
         const { id, title, images } = gif;
